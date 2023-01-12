@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PlaylistTester
+comment0.text=\r\n\ Sample\ of\ a\ tester\ file\ for\ the\ Playlist\ class.\ This\ file\ should\ demonstrate\ all\ the\ capability\ of\ your\r\n\ playlist\ in\ the\ main\ method.\ You\ don't\ need\ to\ follow\ the\ testing\ specifications\ of\ this\ exactly\r\n\ if\ you\ want\ to\ write\ your\ own\ separate\ tester\ instead.\r\n\ Note\ that\ there's\ no\ need\ for\ a\ Scanner\ in\ this\ project--\ all\ of\ the\ playlist\ can\ be\ 'hardcoded'\ into\ main.\r\n\ @author\r\n\ @version\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
