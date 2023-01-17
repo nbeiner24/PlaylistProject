@@ -40,11 +40,11 @@ public class Playlist
         playlist.add(music);
     }
     
-    public void like(Song music)
+    public void like(int position)
     {
-        if (music.getLike()==false)
+        if (playlist.get(position).getLike()==false)
         {
-            music.like();
+            playlist.get(position).like();
         }
         else
         {
@@ -52,9 +52,9 @@ public class Playlist
         }
     }
     
-    public void delete(Song music)
+    public void delete(int position)
     {
-        playlist.remove(music);
+        playlist.remove(playlist.get(position));
     }
     
     public void allSongs()
