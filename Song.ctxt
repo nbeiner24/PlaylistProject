@@ -1,4 +1,22 @@
 #BlueJ class context
 comment0.target=Song
-comment0.text=\r\n\ File\ for\ a\ Song\ class\ to\ be\ used\ in\ the\ Playlist\ Project\r\n\ @author\r\n\ @version\r\n
-numComments=1
+comment0.text=\r\n\ File\ for\ a\ Song\ class\ to\ be\ used\ in\ the\ Playlist\ Project\r\n\ @author\ Nicolas\ Beiner\r\n\ @version\ 1/15/2023\r\n
+comment1.params=name\ artist\ time
+comment1.target=Song(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor--\ what\ information\ needs\ to\ be\ given\ to\ make\ a\ Song?\r\n\ How\ will\ you\ handle\ 'liked'\ songs?\ It\ makes\ sense\ for\ a\ Song\ not\ be\ 'liked'\ by\ default\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Methods--\ what\ will\ you\ want\ each\ Song\ to\ do?\r\n\ Consider\ all\ the\ getter\ methods\ (getName,\ getArtist,\ etc.)\r\n\ You\ should\ probably\ have\ a\ toString\ method\ to\ be\ able\ to\ get\ the\ information\ for\ the\ full\r\n\ song\ easily\ as\ well\!\r\n\ What\ kind\ of\ mutator\ (setter)\ methods\ will\ you\ need?\r\n
+comment3.params=
+comment3.target=java.lang.String\ getArtist()
+comment4.params=
+comment4.target=java.lang.String\ getLength()
+comment5.params=
+comment5.target=boolean\ getLike()
+comment6.params=
+comment6.target=void\ like()
+comment7.params=
+comment7.target=void\ unlike()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

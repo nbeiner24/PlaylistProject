@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.target=Playlist
 comment0.text=\r\n\ The\ Playlist\ class,\ which\ will\ keep\ track\ of\ a\ playlist\ of\ Song\ objects\r\n\ Refer\ to\ the\ project\ description\ to\ make\ sure\ you\ have\ access\ to\ all\ available\ methods\r\n\ @author\ Nicolas\ Beiner\r\n\ @version\ 1/12/2023\r\n
-numComments=1
+comment1.params=
+comment1.target=Playlist()
+comment1.text=\r\n\ Constructor--\ this\ doesn't\ need\ any\ parameters.\ You\ should\ just\ initialize\ the\ ArrayList\ and\r\n\ then\ use\ additional\ methods\ to\ add\ Songs\ in\ one-by-one\r\n
+comment2.params=name
+comment2.target=void\ add(java.lang.String)
+comment2.text=\r\n\ Methods--\ Remember\ that\ you\ need\ to\ be\ able\ to\ complete\ all\ of\ the\ following\:\r\n\ Adding\ a\ song\r\n\ 'liking'\ a\ song\r\n\ Removing\ a\ specific\ song\r\n\ Examining\ all\ Songs\ (a\ String\ return\ or\ void\ print\ makes\ sense\ here)\r\n\ Examining\ a\ sublist\ of\ all\ liked\ songs\r\n\ Determining\ the\ total\ duration\ of\ all\ songs\r\n\ Removing\ all\ unliked\ songs\ from\ the\ playlist\ (careful\ with\ this\ one\!)\r\n
+numComments=3

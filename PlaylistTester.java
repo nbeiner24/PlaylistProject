@@ -3,21 +3,21 @@
  * playlist in the main method. You don't need to follow the testing specifications of this exactly
  * if you want to write your own separate tester instead.
  * Note that there's no need for a Scanner in this project-- all of the playlist can be 'hardcoded' into main.
- * @author
- * @version
+ * @author Nicolas Beiner
+ * @version 1/15/2023
  */
 public class PlaylistTester {
     public static void main(String[] args) {
         System.out.println("Initializing a Playlist...\n");
         //Make your playlist here
-
+        Playlist p1 = new Playlist();
         System.out.println("Adding songs to the Playlist...\n");
         /**
          * Add some songs here. Note that the format for adding a Song to a Playlist p
          * is something like...
          * p.addSong(new Song(..., ..., ...))
          */
-
+        
 
 
         System.out.println("Printing the songs...\n");

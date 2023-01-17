@@ -1,22 +1,30 @@
 /**
  * File for a Song class to be used in the Playlist Project
- * @author
- * @version
+ * @author Nicolas Beiner
+ * @version 1/15/2023
  */
-public class Song {
+public class Song
+{
     //Fields-- what information do we want each Song to store?
-
-
-
+    private boolean liked;
+    private String name;
+    private String artist;
+    private String length;
+    private int minutes;
+    private int seconds;
+    private int time;
 
     /**
      * Constructor-- what information needs to be given to make a Song?
      * How will you handle 'liked' songs? It makes sense for a Song not be 'liked' by default
      */
-
-
-
-
+    public Song(String name, String artist, int time)
+    {
+        liked=false;
+        this.name = name;
+        this.artist = artist;
+        this.time = time;
+    }
 
      /**
       * Methods-- what will you want each Song to do?
@@ -25,6 +33,42 @@ public class Song {
       * song easily as well!
       * What kind of mutator (setter) methods will you need?
       */
-
+    public String getName()
+    {
+        return name;
+    }
+    
+    public String getArtist()
+    {
+        return artist;
+    }
+    
+    public String getLength()
+    {
+        minutes=((time%86400)%3600)/60;
+        seconds=((time%86400)%3600)%60;
+        length = String.valueOf(minutes)+":"+String.valueOf(seconds);
+        return length;
+    }
+    
+    public boolean getLike()
+    {
+        return liked;
+    }
+    
+    public void like()
+    {
+        liked=true;
+    }
+    
+    public void unlike()
+    {
+        liked=false;
+    }
+    
+    public String toString()
+    {
+        return name+" by "+artist+" ("+length+")";
+    }
 
 }
