@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * The Playlist class, which will keep track of a playlist of Song objects
  * Refer to the project description to make sure you have access to all available methods
  * @author Nicolas Beiner
- * @version 1/15/2023
+ * @version 1/17/2023
  */
 public class Playlist
 {
@@ -35,11 +35,22 @@ public class Playlist
        * Determining the total duration of all songs
        * Removing all unliked songs from the playlist (careful with this one!)
        */
+      
+      /**
+       * Adds a Song object to the playlist.
+       * 
+       * @param Any song object
+       */
     public void add(Song music)
     {
         playlist.add(music);
     }
     
+    /**
+       * Likes a Song at a certain position in the playlist.
+       * 
+       * @param Any position in the playlist
+       */
     public void like(int position)
     {
         if (playlist.get(position).getLike()==false)
@@ -52,11 +63,20 @@ public class Playlist
         }
     }
     
+    /**
+       * Deletes a Song at a certain position in the playlist.
+       * 
+       * @param Any position in the playlist
+       */
     public void delete(int position)
     {
         playlist.remove(playlist.get(position));
     }
     
+    /**
+       * Displays all songs on the playlist.
+       * 
+       */
     public void allSongs()
     {
         for (int i=0; i<playlist.size();i++)
@@ -65,6 +85,10 @@ public class Playlist
         }
     }
     
+    /**
+       * Displays all liked songs on the playlist.
+       * 
+       */
     public void allLikedSongs()
     {
         for (int i=0; i<playlist.size();i++)
@@ -76,6 +100,10 @@ public class Playlist
         }
     }
     
+    /**
+       * Calculates and displays the total duration of the playlist.
+       * 
+       */
     public void totalDuration()
     {
         for (int i=0; i<playlist.size(); i++)
@@ -88,6 +116,10 @@ public class Playlist
         System.out.println(totalLength);
     }
     
+    /**
+       * Removes all unliked songs from the playlist.
+       * 
+       */
     public void removeUnliked()
     {
         for (int i=playlist.size()-1; i>=0;i--)

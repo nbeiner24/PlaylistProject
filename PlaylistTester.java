@@ -4,7 +4,7 @@
  * if you want to write your own separate tester instead.
  * Note that there's no need for a Scanner in this project-- all of the playlist can be 'hardcoded' into main.
  * @author Nicolas Beiner
- * @version 1/15/2023
+ * @version 1/17/2023
  */
 public class PlaylistTester {
     public static void main(String[] args)
@@ -35,13 +35,14 @@ public class PlaylistTester {
         //Once your songs are 'liked', this should be reflected in the next printout
         p1.like(1);
         p1.like(2);
-        p1.like(4);
+        p1.like(5);
         p1.like(6);
 
         System.out.println("Printing the songs...\n");
         p1.allSongs();
 
         System.out.println("\nRemoving the song in position 6...\n");
+        //Deletion should be reflected in the next printout
         p1.delete(6);
 
         System.out.println("Printing the songs...\n");
