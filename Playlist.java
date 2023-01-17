@@ -76,7 +76,7 @@ public class Playlist
         }
     }
     
-    public String totalDuration()
+    public void totalDuration()
     {
         for (int i=0; i<playlist.size(); i++)
         {
@@ -85,7 +85,7 @@ public class Playlist
         int minutes=((totalTime%86400)%3600)/60;
         int seconds=((totalTime%86400)%3600)%60;
         String totalLength = String.valueOf(minutes)+":"+String.valueOf(seconds);
-        return totalLength;
+        System.out.println(totalLength);
     }
     
     public void removeUnliked()
@@ -94,7 +94,7 @@ public class Playlist
         {
             if (playlist.get(i).getLike()==false)
             {
-                playlist.remove(i);
+                System.out.print(i);
             }
         }
     }

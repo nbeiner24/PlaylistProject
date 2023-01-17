@@ -52,7 +52,14 @@ public class Song
     {
         minutes=((time%86400)%3600)/60;
         seconds=((time%86400)%3600)%60;
-        length = String.valueOf(minutes)+":"+String.valueOf(seconds);
+        if (String.valueOf(seconds).length()==1)
+        {
+            length = String.valueOf(minutes)+":0"+String.valueOf(seconds);
+        }
+        else
+        {
+            length = String.valueOf(minutes)+":"+String.valueOf(seconds);
+        }
         return length;
     }
     

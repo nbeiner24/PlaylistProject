@@ -51,7 +51,7 @@ public class PlaylistTester {
         //Your Playlist should be able to do this without looping while in main!
         p1.allLikedSongs();
 
-        System.out.println("\nPrinting the total duration of all songs...\n");
+        System.out.println("\nPrinting the total duration of all songs... (Expected to be 31:58) \n");
         //Note that the format should look something like minutes:seconds
         p1.totalDuration();
 
