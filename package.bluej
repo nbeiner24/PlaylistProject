@@ -1,16 +1,16 @@
 #BlueJ package file
-dependency1.from=PlaylistTester
-dependency1.to=Playlist
+dependency1.from=Playlist
+dependency1.to=Song
 dependency1.type=UsesDependency
 dependency2.from=PlaylistTester
-dependency2.to=Song
+dependency2.to=Playlist
 dependency2.type=UsesDependency
-dependency3.from=Playlist
+dependency3.from=PlaylistTester
 dependency3.to=Song
 dependency3.type=UsesDependency
-editor.fx.0.height=727
-editor.fx.0.width=1187
-editor.fx.0.x=192
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
 editor.fx.0.y=0
 objectbench.height=93
 objectbench.width=451
