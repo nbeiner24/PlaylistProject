@@ -82,19 +82,19 @@ public class Playlist
         {
             totalTime+=playlist.get(i).getTime();
         }
-        int minutes=((totalTime%86400)%3600)/60;
-        int seconds=((totalTime%86400)%3600)%60;
+        int minutes=totalTime/60;
+        int seconds=totalTime%60;
         String totalLength = String.valueOf(minutes)+":"+String.valueOf(seconds);
         System.out.println(totalLength);
     }
     
     public void removeUnliked()
     {
-        for (int i=0; i<playlist.size();i++)
+        for (int i=playlist.size()-1; i>=0;i--)
         {
             if (playlist.get(i).getLike()==false)
             {
-                System.out.print(i);
+                playlist.remove(i);
             }
         }
     }
