@@ -43,6 +43,11 @@ public class Song
         return artist;
     }
     
+    public int getTime()
+    {
+        return time;
+    }
+    
     public String getLength()
     {
         minutes=((time%86400)%3600)/60;
@@ -61,14 +66,18 @@ public class Song
         liked=true;
     }
     
-    public void unlike()
-    {
-        liked=false;
-    }
-    
     public String toString()
     {
-        return name+" by "+artist+" ("+length+")";
+        String toString = "";
+        if (liked==true)
+        {
+            toString= name+" by "+artist+" ("+getLength()+") -- liked";
+        }
+        else
+        {
+            toString= name+" by "+artist+" ("+getLength()+")";
+        }
+        return toString;
     }
 
 }
