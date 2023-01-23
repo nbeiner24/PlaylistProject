@@ -1,0 +1,35 @@
+/*
+
+COMMENTS FROM THE INSTRUCTOR:
+
+You've done such a nice job on this Nick, and working on your own,
+as well. Very impressive!
+
+The one thing that I noticed in looking over your code is that your
+math and comparison operators tend to be squeezed together. For example:
+
+    liked=false;
+
+or
+
+     minutes=time/60;
+
+In most programming languages, the recommended style is to put a space
+before and after the equals sign, math operations, etc. So:
+
+    liked = false;
+
+and
+
+    minutes = time / 60;
+
+The consensus is that this makes the formula or assignment easier to 
+read, and makes for fewer mistakes when debugging.
+
+Otherwise, this is a great display of the progress that you're making
+in here. Thanks for sharing it with me.
+
+SCORE: 20/20
+
+*/
+
