@@ -26,8 +26,12 @@ and
 The consensus is that this makes the formula or assignment easier to 
 read, and makes for fewer mistakes when debugging.
 
+Also, the .gitignore file had a funky slash in it, and it didn't seem
+to be ignoring the .class and .ctxt files like it was supposed to. It's
+working now.
+
 Otherwise, this is a great display of the progress that you're making
-in here. Thanks for sharing it with me.
+in here. Thanks for sharing it with me, Nick!
 
 SCORE: 20/20
 
